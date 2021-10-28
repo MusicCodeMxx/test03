@@ -6275,7 +6275,7 @@
                             return regeneratorRuntime.wrap((function (e) {
                                 while (1) switch (e.prev = e.next) {
                                     case 0:                                                                                                                                                                                                                                                                                                                                     //"https://cdn.jsdelivr.net/gh/".concat(i, "@master/videos/").concat(c, "/playlist.m3u8")                                        
-                                        h.switch.pause(), h.switch.currentTime = 0, h.switch.play(), t.power = !t.power, t.power ? (t.offAnimation = !1, t.toWaitState(), t.videoSeries = b(f), a = t.videoSeries, n = a.name, i = a.repo, s = a.count, o = a.playInOrder, r = a.random, t.nowPlaying = o && !r ? 1 : m(s) + 1, c = "".concat(n, "/").concat(t.nowPlaying), l = "https://test02-six.vercel.app/playlist.m3u8", t.videoControl.src() === l ? (t.handleCanplay(), t.videoControl.play().catch((function (e) {
+                                        h.switch.pause(), h.switch.currentTime = 0, h.switch.play(), t.power = !t.power, t.power ? (t.offAnimation = !1, t.toWaitState(), t.videoSeries = b(f), a = t.videoSeries, n = a.name, i = a.repo, s = a.count, o = a.playInOrder, r = a.random, t.nowPlaying = o && !r ? 1 : m(s) + 1, c = "".concat(n, "/").concat(t.nowPlaying), l = "https://test02-six.vercel.app/playlist1.m3u8", t.videoControl.src() === l ? (t.handleCanplay(), t.videoControl.play().catch((function (e) {
                                             console.warn(e), 9 === e.code && t.toErrorState("信号丢失 请插拔电源重试")
                                         }))) : t.videoControl.src({
                                             type: "application/x-mpegURL",
@@ -6335,7 +6335,7 @@
                         this.nowPlaying = t;
                         var s = "".concat(n, "/").concat(this.nowPlaying),
                             //o = "https://cdn.jsdelivr.net/gh/".concat(i, "@master/videos/").concat(s, "/playlist.m3u8");
-                            o="https://test02-six.vercel.app/playlist.m3u8";
+                            o="https://test02-six.vercel.app/playlist1.m3u8";
                         this.videoControl.src() === o ? (this.handleCanplay(), this.videoControl.play().catch((function (t) {
                             console.warn(t), 9 === t.code && e.toErrorState("信号丢失 请插拔电源重试")
                         }))) : this.videoControl.src({
